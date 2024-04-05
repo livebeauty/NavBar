@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Navbar</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+
+ 
+</head>
+<body>
+  <div class="main">
+    <!-- Navbar -->
+     <div class="header">
+      <div class="logos">
+        <img src="./logo.png" alt="logo">
+      </div>
+      
+      <ion-icon name="menu-outline" class="menu-outline">
+      </ion-icon>
+      <div class="nav-list">
+
+       <div class="nav-bar">
+       
+        <div class="dropdown" data-dropdown>
+          <a class="linked " data-dropdown-button>Home</a>
+          <div class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-links">
+                <a href="#" class="link">Action</a>
+                <a href="#" class="link">Something else</a>
+                <a href="#" class="link">Something else here</a>
+                <a href="#" class="link">Action here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="navbar-link">Portfolio</a> 
+        <a href="#" class="navbar-link">Agency</a>
+        <div class="dropdown" data-dropdown>
+          <a class="linked " data-dropdown-button>Service</a>
+          <div class="dropdown-menu information-grid">
+            <div>
+              <div class="dropdown-links">
+                <a href="#" class="link">Action</a>
+                <a href="#" class="link">Something else</a>
+                <a href="#" class="link">Something else here</a>
+                <a href="#" class="link">Action here</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="navbar-link">Carrer</a>
+        <a href="#" class="navbar-link">Journal</a>
+        <a href="#" class="navbar-link">Contact</a>  
+       </div>
+
+    </div> 
+    <ion-icon name="close-outline" class="close-outline"></ion-icon>
+  </div> 
+
+
+  <!-- Content -->
+  <div class="content">
+     <div class="contianer">
+       <h1>Black theme <br> animation</h1>
+
+       <p>scroll for nav animation</p>
+      </div>
+       <div class="onoffswitch">
+        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0" checked>
+        <label class="onoffswitch-label" for="myonoffswitch"></label>
+       </div>
+  </div>
+</div>
+
+<script type="module" src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons@latest/dist/ionicons/ionicons.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+@media (max-width:500px) {
+
+
+  :root{
+    --primary-color: #ededed;
+    --secondary-color: #212121;
+   }
+   
+   .dark-theme{
+     --primary-color: #000106;
+     --secondary-color: #fff;
+   }
+
+
+  .nav-list{
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 10;
+        background: var(--primary-color);
+        transition: top 1s ease;
+    } 
+
+    .dropdown-menu{
+      position: absolute;
+      width: auto !important;
+      left: 0px;
+      top: 25px;
+      z-index: 999;
+    }
+
+    .nav-bar{
+      position: absolute;
+      top: 50px;
+      left: 15px;
+      gap:  30px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .header .logos img{
+      width: 13vw;
+    }
+
+    .nav-list a{
+      font-size: 3.5vw;
+      font-weight: 650;
+    }
+
+    .nav-list .navbar-link{
+      font-size: 3.5vw;
+      font-weight: 650;
+    }
+
+
+
+     .menu-outline{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        font-size: 9vw;
+        font-weight: 800;
+        cursor: pointer;
+        color: var(--secondary-color);
+        display: block;
+        z-index: 99;
+      } 
+      
+      
+       .close-outline{
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        display: none;
+        font-size: 9vw;
+        font-weight: 800;
+        cursor: pointer;
+        color: var(--secondary-color);
+        z-index: 99;
+      }  
+   /* ------------content------------------ */
+      .contianer{
+        margin-bottom: 2vw;
+        line-height: 12vw;
+        text-align: center;
+      }
+
+      .contianer h1{
+        font-size: 8.7vw;
+        font-weight: 900;
+      }
+      
+      .contianer p{
+        font-size: 3.7vw;
+      }
+       
+
+}
